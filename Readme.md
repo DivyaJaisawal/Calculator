@@ -5,4 +5,6 @@ Simple Calculator
 Steps to build 
 ---
 
-1) Run ``./gradlew clean build``
+* Supports the basic arithmetic operations
+* Run ``./gradlew clean build``
+* for only running the rest `` ./gradlew test``
