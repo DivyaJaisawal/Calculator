@@ -61,5 +61,13 @@ public class ArithmeticOperationTest {
         assertEquals(16, arithmeticOperation.multipy(4, 4));
     }
 
+    @Test
+    public void shouldReturnTheNumberItselfWhenDividedByOne() throws Exception {
+        assertEquals(15, arithmeticOperation.divide(15, 1));
+    }
 
+    @Test
+    public void testDivide() throws Exception {
+        assertEquals(100, arithmeticOperation.divide(1000, 10));
+    }
 }

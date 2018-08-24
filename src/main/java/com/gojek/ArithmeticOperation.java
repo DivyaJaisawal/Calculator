@@ -14,4 +14,8 @@ public class ArithmeticOperation {
     public int multipy(int firstVal, int secondVal) {
         return firstVal * secondVal;
     }
+
+    public int divide(int dividend, int divisor) {
+        return dividend / divisor;
+    }
 }
