@@ -17,7 +17,7 @@ public class ArithmeticOperationTest {
 
     @Test
     public void testShouldReturnZeroIfBothTheInputsAreZero() throws Exception {
-        assertEquals(0, arithmeticOperation.add(0,0));
+        assertEquals(0, arithmeticOperation.add(0, 0));
     }
 
     @Test
@@ -34,5 +34,10 @@ public class ArithmeticOperationTest {
     @Test
     public void testShouldReturnSumIfBothNumberIsPresent() throws Exception {
         assertEquals(10, arithmeticOperation.add(5, 5));
+    }
+
+    @Test
+    public void testShouldReturnZeroIfBothTheInputsAreZeroForSubstraction() throws Exception {
+        assertEquals(0, arithmeticOperation.substract(0, 0));
     }
 }

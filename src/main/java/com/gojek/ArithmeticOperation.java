@@ -7,4 +7,7 @@ public class ArithmeticOperation {
         return firstVal + secondVal;
     }
 
+    public int substract(int firstVal, int secondVal) {
+        return 0;
+    }
 }
