@@ -16,28 +16,28 @@ public class ArithmeticOperationTest {
     }
 
     @Test
-    public void testShouldReturnZeroIfBothTheInputsAreZero() throws Exception {
+    public void shouldReturnZeroIfBothTheInputsAreZero() throws Exception {
         assertEquals(0, arithmeticOperation.add(0, 0));
     }
 
     @Test
-    public void testteShouldReturnFirstNumberIfSecondNumIsZero() throws Exception {
+    public void shouldReturnFirstNumberIfSecondNumIsZero() throws Exception {
         assertEquals(3, arithmeticOperation.add(3, 0));
     }
 
     @Test
-    public void testShouldReturnSecondNumberIfFirstNumIsZero() throws Exception {
+    public void shouldReturnSecondNumberIfFirstNumIsZero() throws Exception {
         assertEquals(5, arithmeticOperation.add(0, 5));
 
     }
 
     @Test
-    public void testShouldReturnSumIfBothNumberIsPresent() throws Exception {
+    public void shouldReturnSumIfBothNumberIsPresent() throws Exception {
         assertEquals(10, arithmeticOperation.add(5, 5));
     }
 
     @Test
-    public void testShouldReturnZeroIfBothTheInputsAreZeroForSubstraction() throws Exception {
+    public void shouldReturnZeroIfBothTheInputsAreZeroForSubstraction() throws Exception {
         assertEquals(0, arithmeticOperation.substract(0, 0));
     }
 
@@ -60,4 +60,6 @@ public class ArithmeticOperationTest {
     public void testMultiply() throws Exception {
         assertEquals(16, arithmeticOperation.multipy(4, 4));
     }
+
+
 }
