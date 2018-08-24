@@ -21,7 +21,7 @@ public class ArithmeticOperationTest {
     }
 
     @Test
-    public void testShouldReturnFirstNumberIfSecondNumIsZero() throws Exception {
+    public void testteShouldReturnFirstNumberIfSecondNumIsZero() throws Exception {
         assertEquals(3, arithmeticOperation.add(3, 0));
     }
 
@@ -39,5 +39,10 @@ public class ArithmeticOperationTest {
     @Test
     public void testShouldReturnZeroIfBothTheInputsAreZeroForSubstraction() throws Exception {
         assertEquals(0, arithmeticOperation.substract(0, 0));
+    }
+
+    @Test
+    public void testSubstraction() throws Exception {
+        assertEquals(5, arithmeticOperation.substract(10, 5));
     }
 }

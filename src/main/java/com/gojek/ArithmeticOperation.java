@@ -8,6 +8,7 @@ public class ArithmeticOperation {
     }
 
     public int substract(int firstVal, int secondVal) {
-        return 0;
+        return firstVal - secondVal;
     }
+
 }
