@@ -45,4 +45,19 @@ public class ArithmeticOperationTest {
     public void testSubstraction() throws Exception {
         assertEquals(5, arithmeticOperation.substract(10, 5));
     }
+
+    @Test
+    public void shouldReturnZeroIfMultiplierIsZero() throws Exception {
+        assertEquals(0, arithmeticOperation.multipy(0, 10));
+    }
+
+    @Test
+    public void shouldReturnNumWhenMultiplierIsOne() throws Exception {
+        assertEquals(19, arithmeticOperation.multipy(1, 19));
+    }
+
+    @Test
+    public void testMultiply() throws Exception {
+        assertEquals(16, arithmeticOperation.multipy(4, 4));
+    }
 }
